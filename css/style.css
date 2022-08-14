@@ -348,9 +348,17 @@ footer li{
     position: absolute;
 }
 .menu-titre{
-    border-bottom: 3px solid #99E2D0;
-    width: 40px;
-    font-weight: 400;
+    position: relative;
+    padding-bottom: 5px;
+}
+.menu-titre::after{
+    content: "";
+    width: 30px;
+    height: 0.2rem;
+    background-color: #99e2d0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
 .page-button{
     text-align: center;
